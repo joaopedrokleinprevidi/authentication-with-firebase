@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  background-color: #eee;
+}
+
+header {
+  color: rgb(79, 84, 227);
+}
+
+main > .campos {
+  display: flex;
+  flex-direction: column;
+}
+
+main > .campos > div {
+  margin: 0.2rem;
+}
+
+main > .campos > div > input {
+  border-radius: 0.3rem;
+}
+
+main > .campos > button {
+  padding: 0.5rem;
+  color: rgb(79, 84, 227);
+  margin: 0.3rem;
+  border: 1px solid lightcoral;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+main > .campos > button:hover {
+  border: 1px solid rgb(79, 84, 227);
+  color: lightcoral;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
